@@ -1,6 +1,6 @@
 //timeCelebration =[YYYY, M, D]
 //M = 0 for January, 1 for February...
-function timeToNewYear(timeCelebration, nameCelebration) {
+function timeToHolidays(timeCelebration, nameCelebration) {
   const now = new Date();
   const holiday = new Date(timeCelebration[0],timeCelebration[1], timeCelebration[2]);
   const diff = holiday.getTime() - now.getTime();
